@@ -1,0 +1,21 @@
+﻿# Data files
+data/
+*.csv
+*.xls
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/cache
+*.dvc
