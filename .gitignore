@@ -1,8 +1,8 @@
-﻿# Data files
-data/
-*.csv
-*.xls
-*.xlsx
+﻿# Data files (ignore actual data, but track .dvc files)
+data/**/*.csv
+data/**/*.xls
+data/**/*.xlsx
+!data/**/*.dvc
 
 # Python
 __pycache__/
@@ -17,5 +17,5 @@ env/
 mlruns/
 
 # DVC
+!.dvc
 .dvc/cache
-*.dvc
